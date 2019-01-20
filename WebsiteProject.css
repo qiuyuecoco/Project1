@@ -10,6 +10,17 @@ body{
     background: linear-gradient(to bottom, #eeeeee 0%,#cccccc 100%);
     box-shadow: 5px 10px #888888;
 }
+/* For mobile phones: */
+/*@media only screen and (max-width: 798px) {*/
+    /*[master*="col-"] {*/
+    /*}*/
+    /*width: 100%;*/
+/*}*/
+@media only screen and (max-width:790px) {
+    body {
+        display: none;
+    }
+}
 .master{
     background-color: #FFFFFF;
     width: 95%;
@@ -50,7 +61,7 @@ body{
 }
 h3{
     text-align: right;
-    margin-right: 260px;
+    margin-right: 330px;
 }
 .head2{
     display: flex;
@@ -99,7 +110,8 @@ h3{
     justify-content: flex-start;
     align-items: flex-start;
 }
-.left a{
+.left2{
+    margin-left: 70px;
 
 }
 .right2{
