@@ -1,3 +1,8 @@
+/*@media only screen and (max-width:790px) {*/
+    /*body {*/
+        /*display: none;*/
+    /*}*/
+/*}*/
 html{
     height:100%;
 }
@@ -16,11 +21,7 @@ body{
     /*}*/
     /*width: 100%;*/
 /*}*/
-@media only screen and (max-width:790px) {
-    body {
-        display: none;
-    }
-}
+
 .master{
     background-color: #FFFFFF;
     width: 95%;
