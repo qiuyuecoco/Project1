@@ -1,10 +1,10 @@
-/*@media only screen and (max-width:790px) {*/
-    /*body {*/
-        /*display: none;*/
-    /*}*/
-/*}*/
+@media only screen and (max-width:790px) {
+    body {
+        display: none;
+    }
+}
 html{
-    height:100%;
+    height:95%;
 }
 body{
     font-family: 'Baloo Tamma', cursive;
@@ -12,7 +12,7 @@ body{
     margin: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to bottom, #eeeeee 0%,#cccccc 100%);
+    /*background: linear-gradient(to bottom, #eeeeee 0%,#cccccc 100%);*/
     box-shadow: 5px 10px #888888;
 }
 /* For mobile phones: */
@@ -35,7 +35,7 @@ body{
     align-items: center;
     justify-content: space-evenly;
 }
-.tLeft{
+.tleft{
     display: flex;
     width: 25%;
 }
@@ -44,22 +44,23 @@ body{
     margin-right: 50px;
     margin-top: 15px;
 }
-.tRight{
+.tright{
     display:flex;
     align-items: center;
     width: 60%;
 }
-.Navigation{
+nav.main{
     display: flex;
     align-items: center;
     width: 100%;
     justify-content: space-between;
 }
-.Navigation a{
+nav.main a{
     text-decoration: none;
     font-size: 24px;
     color: #7c869e;
 }
+
 h3{
     text-align: right;
     margin-right: 330px;
