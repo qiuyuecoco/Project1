@@ -1,0 +1,76 @@
+body {
+  font-family: "Baloo Tamma", cursive; }
+
+body, html {
+  height: 100%; }
+
+.navbar {
+  border-radius: 15px;
+  -webkit-box-shadow: 5px 5px 40px 0px #140c24;
+  -moz-box-shadow: 5px 5px 40px 0px #140c24;
+  box-shadow: 5px 5px 40px 0px #140c24;
+  margin: 0 5px 10px 10px;
+  background-color: #EA640E; }
+  .navbar a {
+    text-decoration: none;
+    color: #140C24; }
+  .navbar .dropdown-menu {
+    background-color: #F5A64A; }
+
+* {
+  box-sizing: border-box; }
+
+.bg-image {
+  /* The image used */
+  background-image: url("../../../Images/burger-hero.jpg");
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: black;
+  /* Fallback color */
+  background-color: rgba(0, 0, 10, 0.3);
+  /* Black w/opacity/see-through */
+  color: #FBC57B;
+  text-shadow: 3px 3px #140C24;
+  font-weight: bold;
+  border: 3px solid #F5A64A;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center; }
+
+h2 {
+  text-align: center;
+  color: #EA640E; }
+
+.mapouter {
+  border-radius: 10px;
+  position: center; }
+
+footer {
+  background-color: #EA640E;
+  border-radius: 10px;
+  -webkit-box-shadow: 5px 5px 40px 0px #140c24;
+  -moz-box-shadow: 5px 5px 40px 0px #140c24;
+  box-shadow: 5px 5px 40px 0px #140c24;
+  margin: 5px 5px 10px 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; }
+  footer nav {
+    font-size: 18px;
+    color: #140C24; }
