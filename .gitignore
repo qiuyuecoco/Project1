@@ -1,2 +1,5 @@
 # Created by .ignore support plugin (hsz.mobi)
 .idea
+/Stylesheets/SCSSFolder/node_modules
+/Stylesheets/SCSSFolder/package-lock.json
+/Extra Misc

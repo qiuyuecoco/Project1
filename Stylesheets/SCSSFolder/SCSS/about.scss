@@ -1,0 +1,28 @@
+.container{
+  font-size: 40px;
+  width: 100%;
+  background-color: #eeeeee;
+}
+.paraback1{
+  background-image: url('../../../Images/rockeyburgers02-logo.png');
+  min-height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.paraback2{
+  background-image: url('../../../Images/burger-hero.jpg');
+  min-height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+iframe{
+  width: 70%;
+  max-height: 70%;
+  display: flex;
+  justify-content: center;
+}
