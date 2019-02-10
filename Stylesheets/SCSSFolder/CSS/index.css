@@ -38,3 +38,39 @@ footer {
   footer nav {
     font-size: 18px;
     color: #140C24; }
+
+* {
+  box-sizing: border-box; }
+
+.bg-image {
+  /* The image used */
+  background-image: url("../../../Images/burger-hero.jpg");
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: black;
+  /* Fallback color */
+  background-color: rgba(0, 0, 10, 0.3);
+  /* Black w/opacity/see-through */
+  color: #FBC57B;
+  text-shadow: 3px 3px #140C24;
+  font-weight: bold;
+  border: 3px solid #F5A64A;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 85%;
+  padding: 20px;
+  text-align: center; }
