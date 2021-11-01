@@ -10,7 +10,7 @@ body, html {
   -moz-box-shadow: 5px 5px 40px 0px #140c24;
   box-shadow: 5px 5px 40px 0px #140c24;
   margin: 0 5px 10px 10px;
-  background-color: #EA640E; }
+  background-color: #e6ad8a; }
   .navbar a {
     text-decoration: none;
     color: #140C24; }
@@ -26,7 +26,7 @@ h2 {
   position: center; }
 
 footer {
-  background-color: #EA640E;
+  background-color: #e6ad8a;
   border-radius: 10px;
   -webkit-box-shadow: 5px 5px 40px 0px #140c24;
   -moz-box-shadow: 5px 5px 40px 0px #140c24;
