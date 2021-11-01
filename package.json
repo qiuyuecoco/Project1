@@ -1,0 +1,22 @@
+{
+  "name": "t2t_website",
+  "version": "1.0.0",
+  "description": "tricks2treats blog website",
+  "devDependencies": {
+    "lite-server": "^1.3.4"
+  },
+  "scripts": {
+    "lite": "lite-server --port 10001",
+    "start": "npm run lite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qiuyuecoco/Project1.git"
+  },
+  "author": "keisha ding",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qiuyuecoco/Project1/issues"
+  },
+  "homepage": "https://github.com/qiuyuecoco/Project1#readme"
+}
